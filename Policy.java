@@ -22,7 +22,7 @@ public class Policy
     smokerStatus = "Non-Smoker";
     height = 0.0;
     weight = 0.0;
-    }
+   }
     
     // Constructor that accepts argument for the varibles above
      public Policy(int num, String prov, String fir, String las, int a, String smoke, double h, double w)
@@ -112,7 +112,5 @@ public class Policy
        return base;
        
       }
-      
-      
      
 }   
