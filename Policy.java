@@ -19,7 +19,7 @@ public class Policy
     firstName = "";
     lastName = "";
     age = 0;
-    smokerStatus = "Non-Smoker";
+    smokerStatus = "non-smoker";
     height = 0.0;
     weight = 0.0;
    }
@@ -88,7 +88,7 @@ public class Policy
       
       
      // Calculate Price of Policy
-      public double getbase()
+      public double getBase()
       {
        double base = 600;
       
